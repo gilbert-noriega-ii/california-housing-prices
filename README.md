@@ -6,20 +6,20 @@
 <h1 align = "center">1990 California Housing Prices</h1>
 <p align = "center">Author: Gilbert Noriega</p>
 
-[About the Project](#section_1) || [Data Dictionary](#section_2) ||  [Initial Hypotheses/Thoughts](#section_3) || [Project Plan](#section_4) || [How to Reproduce](#section_5)
+[About the Project](#section_1) || [Data Dictionary](#section_2) ||  [Project Plan](#section_4) || [How to Reproduce](#section_5)
 
 
 <br>
 
 <a id='section_1'></a>
 ## About the Project
-> 
+> In this project, we will use California Housing Prices from the 1990 California census to predict the median housing price for districts. 
 ___
 
 <br>
 
 ## Background
-> 
+> The district housing prices are currently estimated manually by experts. This team gathers up-to-date information about a district and when they cannot get the median housing prices, they estimate using a complex set of rules. This is costly and time-consuming, and their estimates are not that great. In cases where they manage to find out the actual median housing price, they often realize that their estimates were off by more than 20%. 
 
 ___
 
@@ -32,7 +32,7 @@ ___
 <br>
 
 ## Goals
->
+>It is your task to train a model to predict a district's median housing price, given other data about the district.
   
 [back to the top](#section_6)
 
@@ -65,33 +65,6 @@ ___
 
 <br>
 
-[back to the top](#section_6)
-___
-
-<br>
-
-<a id='section_3'></a>
-## Initial Hypothesis & Thoughts
-
->### Thoughts
->
-> - 
-> - 
-
-<br>
-
->### Hypothesis
-> - Hypothesis 1: 
->   - H<sub>0</sub>: 
->   - H<sub>a</sub>: 
->
-> - Hypothesis 2: 
->   - H<sub>0</sub>: 
->   - H<sub>a</sub>: 
->
-> - Hypothesis 3: 
->   - H<sub>0</sub>: 
->   - H<sub>a</sub>: 
 
 
 [back to the top](#section_6)
@@ -113,21 +86,19 @@ ___
 >    - create features
 >    - scale the data
 >    - split into train, validate, test
->    - create a prepare.py to automate the process
 >
 >- explore
->    - plot correlation values of all variables
->    - test each hypothesis
+>    - retrieve correlation values of all variables
+>    - create correlation charts
 >    - document and consider the results for modeling
 >
 >- model and evaluation
->    - set the baseline
 >    - find which features are most influential 
->    - try different algorithms: 
+>    - try different algorithms
 >    - evaluate on train
 >    - evaluate on validate
+>    - fine tune hyperparameters
 >    - select best model and test to verify
->    - create a model.py to automate the process
 >
 >- conclusion
 >    - summarize findings
@@ -143,9 +114,8 @@ ___
 <a id='section_5'></a>
 ## How to Reproduce
 
->1. Download csv from [here](insert link)
->2. Install [prepare.py](insert link), [explore.py](insert link) and [model.py](insert link) into your working directory.
->3. Run a jupyter notebook importing the necessary libraries and functions.
->4. Follow along in final_notebook.ipynb or forge your own exploratory path. 
+>1. Download csv from [here](https://github.com/gilbert-noriega-ii/california-housing-prices/raw/main/datasets/housing/housing.csv)
+>2. Run a jupyter notebook importing the necessary libraries and functions.
+>3. Follow along in final_notebook.ipynb or forge your own exploratory path. 
 
 [back to the top](#section_6)
